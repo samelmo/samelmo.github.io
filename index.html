@@ -17,7 +17,7 @@
   html, body { margin:0; height:100%; background:#0B110D; color:#F4F5F2; overflow:hidden; -webkit-text-size-adjust:100%; }
   body { font-family:'Geist', Arial, sans-serif; }
   #stage { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; }
-  #canvas { position:relative; width:1920px; height:1080px; transform-origin:center center; overflow:hidden; background:#121B15; box-shadow:0 30px 80px rgba(0,0,0,.6); }
+  #canvas { position:relative; flex:0 0 auto; min-width:1920px; min-height:1080px; width:1920px; height:1080px; transform-origin:center center; overflow:hidden; background:#121B15; box-shadow:0 30px 80px rgba(0,0,0,.6); }
   section { position:absolute; left:0; top:0; width:1920px; height:1080px; box-sizing:border-box; }
   section:not(.active) { display:none !important; }
   section.active.fade-in { animation:slideFade .45s ease-out both; }
